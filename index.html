@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Tulsi Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar-background h-nav-resp">
+        <ul class="navlist v-class-resp">
+            <div class="logo"><img src="dab2.jpg" alt="logo"></div>
+            <li> <a href="#home"> Home</a></li>
+            <li> <a href="#about"> About</a></li>
+            <li><a href="#projects"> My Projects</a></li>
+            <li><a href="#experience"> Work Experience</a></li>
+            <li><a href="#contact"> Contact Us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp" id="home">
+            <input type="text" name="search" id="search" placeholder="Type something here...">
+            <button class="btn btn-sm">search</button>
+        </div>
+
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstsection" id="about">
+        <div class="box-main">
+            <div class="firsthalf">
+                <p class="text-big">Hello there!</p>
+                <p class="text-small">My name is Tulsi Thakur I am
+                    Incoming Data Engineer Intern At Amazon and<br>
+                    Microsoft Learn Student Ambassador</p>
+                <div class="buttons">
+                    <button class="btn" onclick="location.href='//www.linkedin.com/in/tulsi-thakur-23142a15b'">LinkedIn Profile</button>
+                    <button class="btn" onclick="location.href='https://github.com/ThakurTulsi'">Github Profile</button>
+                </div>
+
+            </div>
+            <div class="secondhalf">
+                <img src="me.jpg" alt="image">
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="experience">
+        <div class="paras">
+            <p class="sectiontag text-big">Alpha Microsoft Learn Student Ambassador (2021)</p>
+            <p class="sectionsubtag text-small">My work and responsibilities:
+
+
+
+            </p>
+            <p class="sectionsubtag text-small">
+                To share knowledge of technology through presentations on MS Team.
+                Guide newcomers about the community and also get insightful knowledge from seniors and juniors.
+                Which helped me strengthen my presentation and communication skills.
+                
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="mlsa.jpg" alt="image" class="imgfluid">
+        </div>
+    </section>
+
+    <section class="section section-left" id="projects">
+        <div class="paras">
+            <p class="sectiontag text-big">Made face-mask detector by using Python and OpenCV (2021)</p>
+            <p class="sectionsubtag text-small">The project detects whether person is wearing mask on face or not.
+                If not, then a warning message is generated along with a beep sound.
+                <a href="https://github.com/tulsithakur/facemaskdetection" target="_blank">Face Mask Detector</a>
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="fm.jpg" alt="image" class="imgfluid">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+            <p class="sectiontag text-big">Made audio/video downloader by using Python (15th November, 2021)</p>
+            <p class="sectionsubtag text-small">The project downloads audio/video/both after link is entered.It also
+                shows total size of the file, time left and received size.
+                <a href="https://github.com/tulsithakur/youtubeDownloader" target="_blank">YouTube Audio/Video Downloader</a>
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="yt.jpg" alt="image" class="imgfluid">
+
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="form">
+            <form id="contact" method="post" action="file.php">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+            <input class="form-input" type="phone" name="phone" id="phone" placeholder="Enter your phone">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter your email">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Elaborate your concern"></textarea>
+            <button class="btn btn-sm btn-dark">Submit</button>
+        </form>
+        </div>
+    </section>
+    <footer class="text-footer">
+        <p class="text-footer">
+            Copyright &copy; 2022- All rights reserved by Tulsi Thakur...
+            <p>
+
+            </p>
+            
+            <p>
+            <a href="https://twitter.com/thakur_tulsi1" class="text-footer" target="_blank">Connect on Twitter</a>
+        </p>
+        </p>
+      
+    </footer>
+
+    <script src="resp.js"></script>
+</body>
+
+</html>
